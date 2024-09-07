@@ -1,0 +1,226 @@
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/assets/fonts/dm-sans-v15-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../src/assets/fonts/dm-sans-v15-latin-500.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../src/assets/fonts/dm-sans-v15-latin-700.woff2') format('woff2'); 
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/assets/fonts/dm-sans-v15-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../src/assets/fonts/dm-sans-v15-latin-500.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../src/assets/fonts/dm-sans-v15-latin-700.woff2') format('woff2'); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", "sans-serif";
+    background-color: #f9faff;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*Header styles start*/
+.site-header {
+    padding: 54px 0 100px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-link {
+    color: #3d3d3f;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    transition: color 0.2s linear;
+}
+
+.header-link:hover {
+    color: #F35F2F;
+}
+
+.header-contact-btn {
+    width: 118px;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(2.79deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+    transition:color 0.2s linear;
+}
+
+.header-contact-btn:hover {
+    cursor: pointer;
+    color: #F35F2F;
+    border: solid 2px #F35F2F;
+    background: white;
+}
+
+.extra-width {
+    width: 219px;
+}
+/*Header styles end*/
+
+/* hero styles start */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+h1 {
+    width: 515px;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 85.32px;
+    margin-bottom: 42px;
+    color: #3d3d3f;
+}
+
+.hero-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    margin-bottom: 40px;
+    color: #3d3d3f;
+}
+/* hero styles end */
+
+
+/* body styles start */
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    text-align: center;
+    margin-bottom: 55px;
+    color: #3d3d3f;
+}
+
+.web-services-wrapper-cards {
+    width: 1160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 52px;
+    padding-inline: 71px;
+    border-radius: 17px;
+    margin-bottom: 60px;
+    border: solid 2px #EBEBEB;
+}
+
+.web-services {
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.web-services-wrapper-img {
+    width: 99px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    border-radius: 15px;
+    background-color: #79e28a;
+}
+
+.extra-bl {
+    background-color: #60daff;
+}
+
+.extra-br {
+    background-color: #f37168;
+}
+
+.web-services-title-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.seans {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.87px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.services-info {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.25px;
+    text-align: center;
+}
+
+.border {
+    width: 2px;
+    height: 242px;
+    background-color: #EBEBEB;
+}
+/* body styles end */
